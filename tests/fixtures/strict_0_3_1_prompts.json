@@ -1,0 +1,26 @@
+{
+  "plan": {
+    "prompt_sha256": "38004e50197fea4dc24042f322343d983d3f93aa99a3884641157820a747f4fe",
+    "schema_sha256": "f669f5f587f8657dbf0b2d83b01af1f3c436fc05661efae2eed428d156479631"
+  },
+  "assess": {
+    "prompt_sha256": "c75e8c5b6d5301161affaedad1824166e21b4b15fbb42150cd59bb017ff0c3a0",
+    "schema_sha256": "a2e0a8033d6692338167736005358b0831bb57fc008fa47eaf119b32cfac72f0"
+  },
+  "discover": {
+    "prompt_sha256": "af8255ced970fdb85c6757a62bbc92d7b7e73563f2428d0ff0ebea9dcdf378d0",
+    "schema_sha256": "b38620a732022470340b3900e2a7391967b343ceb713f648e1d41ed07c8d1a8e"
+  },
+  "plan_guide": {
+    "prompt_sha256": "60df725cfd183430e8826bd53d743e34649f4bc45484fdc180b05bbc441d0737",
+    "schema_sha256": "f669f5f587f8657dbf0b2d83b01af1f3c436fc05661efae2eed428d156479631"
+  },
+  "assess_guide": {
+    "prompt_sha256": "4ec4c4057eff2537c8524a577065b6b5d77428a0bc28dd3d9c20c46be6e11586",
+    "schema_sha256": "a2e0a8033d6692338167736005358b0831bb57fc008fa47eaf119b32cfac72f0"
+  },
+  "discover_guide": {
+    "prompt_sha256": "681b09de78e414f0305b7e785e9daa8a29e05e66f18af0e916d3ace0f6535195",
+    "schema_sha256": "b38620a732022470340b3900e2a7391967b343ceb713f648e1d41ed07c8d1a8e"
+  }
+}

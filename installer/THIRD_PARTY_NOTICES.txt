@@ -1,0 +1,25 @@
+LazyRef Windows installer
+
+LazyRef uses Qt 6.12.0 (Qt Base and Qt Image Formats) and Qt for Python
+6.12.0 (PySide6 and Shiboken). Copyright belongs to The Qt Company and
+the respective contributors. These libraries are used under the GNU
+Lesser General Public License, version 3 (LGPLv3). The full LGPLv3 and
+GPLv3 texts are in the Qt license files installed with the application.
+The Qt source archive in the same GitHub release contains the upstream
+source and build files for these libraries.
+
+https://doc.qt.io/qtforpython-6/
+
+The Qt libraries and Python bindings are loaded dynamically. To use a
+compatible modified build, close LazyRef and replace the Qt DLLs, plugins
+and Python bindings in runtime\Lib\site-packages\PySide6 and
+runtime\Lib\site-packages\shiboken6 in the installation directory.
+Use matching x64 binaries and the Python ABI supported by the bundled
+runtime. Then launch LazyRef again. The LGPL gives you the right to
+modify these libraries and to reverse engineer for debugging those
+modifications.
+
+The Python license is in runtime\LICENSE.txt. Python packages retain
+their notices under runtime\Lib\site-packages, including in their
+.dist-info directories. The Playwright driver directory includes its
+notices and the license for the bundled Node.js 24.22.3 runtime.
